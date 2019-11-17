@@ -1,0 +1,22 @@
+{
+  "name": "gbsid",
+  "version": "1.0.0",
+  "description": "GBSID Backend build using ExpressJS and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "rufo.marasigan.jr@tip.edu.ph",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.9",
+    "web3": "^1.2.2"
+  }
+}
