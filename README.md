@@ -7,6 +7,9 @@ The project consist of two main folder. The backend and the gbsid (frontend).
 * frontend. The frontend is made using PHP
 
 ## Deployment Setup
+### Smartcontract
+*To insure that the system will work during the final pitch, the system was made to work entirely on test setup. With this, before you can run the system, the smart contract (gbsid.sol) should be compiled and deployed first. In this project setup, smartcontract is compiled using REMIX IDE (using chrome with metamask) and deployed in local net using GANACHE IDE.
+
 ### Backend
 1. Setup the MongdoDB URI and Secret in the default.json located at backend/config
 2. run using NPM RUN SERVER
